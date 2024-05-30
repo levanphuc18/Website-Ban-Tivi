@@ -74,6 +74,7 @@ public class AdminAuthController {
 			return viewsDirectory + "login";
 
 		}
+		System.out.println("Login");
 		return "redirect:/admin/dashboard";
 	}
 
